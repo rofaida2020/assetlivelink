@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home page</title>
+    <!-- =======google fonts========= -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- -=====google font-===================== -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- -=============header part==================== -->
+    <!-- <header>
+      <div class="container">
+        <div class="header_flex">
+          <div class="icon">
+           <a href=""> <i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+           <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </header> -->
+    <!-- -=============header part==================== -->
+    <!-- =====navbar part-============================ -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="images/assetbangla Main Logo PNG.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="myDIV">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Properties
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Properties Grid</a></li>
+                <li><a class="dropdown-item" href="#">Properties List</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Agents
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Members</a></li>
+                <li><a class="dropdown-item" href="#">Agents page</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                News
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">News1</a></li>
+                <li><a class="dropdown-item" href="#">News 2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <span class="navbar_login">
+            <a href="login.html">Login</a>
+            <span>/</span>
+            <a href="sign_up.html">Sign up</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- =====navbar part-============================ -->
+    <!-- -------===========banner part ================ -->
+    <section id="banner_part">
+      <div class="container">
+        <div class="banner_text">
+          <p>
+            Opening Doors, Creating Homes – AssetBangla Real Estate & Services:
+            Your Key to Property Success.
+          </p>
+        </div>
+        <div class="banner_input">
+          <input type="search" placeholder="search" class="search" />
+        </div>
+        <div class="banner_icon">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- ==============banner part============================= -->
+    <!-- ==============flash_sale-===================== -->
+    <section id="flashsale_part">
+      <div class="container">
+        <div class="flash_timer">
+          <div class="left">
+            <a href="#">FlashSale</a>
+          </div>
+          <div class="right">
+            <div class="offer">
+              <a href="#">On Sale Now</a>
+            </div>
+            <div class="offer_ending">
+              <span>Ending in: </span>
+              <div class="countdown_container">
+                <p id="days" class="big-text">0</p>
+                <span></span>
+                <p id="hours" class="big-text">0</p>
+                <span></span>
+                <p id="minutes" class="big-text">0</p>
+                <span></span>
+                <p id="seconds" class="big-text">0</p>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="end">
+            <a href="#">SHOP MORE</a>
+          </div>
+        </div>
+        <div class="flash_slide">
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="flash_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========flash sale0--------------------------- -->
+    <!-- ============featured part start-=================== -->
+    <section id="featured_part">
+      <div class="container">
+        <div class="featured">
+          <a href="#">Featured Products</a>
+        </div>
+        <div class="featured_slide">
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+        </div>
+        <div class="featured_slide">
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="featured_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+        </div>
+        <div class="featured_load">
+          <a href="#">LOAD MORE</a>
+        </div>
+      </div>
+    </section>
+    <!-- =========featured part end-=============================== -->
+    <!-- ==============categories part ==================================== -->
+    <section id="catagories">
+      <div class="container">
+        <div class="link_cata">
+          <a href="#">Categories</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="img_cata">
+                <img src="images/house.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+
+          <div class="link2_cata">
+            <a href="#">LOAD MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==============categories part ==================================== -->
+    <!-- ==========subscribe_part-=========================== -->
+    <section id="subscribe-part">
+      <div class="container">
+        <div class="subscribe">
+          <div class="left">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>
+              Get all the latest information on events, sales and offers. Sign
+              up for newsletter.
+            </p>
+            <form>
+              <input type="text" placeholder="email address.." /><button>
+                SUBSCRIBE
+              </button>
+            </form>
+          </div>
+          <div class="right">
+            <img src="images/client.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========subscribe part-============================ -->
+    <!-- =========top rated product -=================== -->
+    <section id="toprated_part">
+      <div class="container">
+        <div class="top_rated">
+          <a href="#">Top Rated Product</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="col-lg-4">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="col-lg-4">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="col-lg-4">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="col-lg-4">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="col-lg-4">
+            <img src="images/house.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================top rated product-======================== -->
+    <!-- ======selling product-========================= -->
+    <section id="selling_part">
+      <div class="container">
+        <div class="selling">
+          <a href="#">Best Selling Product</a>
+        </div>
+        <div class="selling_slide">
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="selling_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===========selling product-================= -->
+    <!-- =========upcoming part =================== -->
+    <section id="upcoming_part">
+      <div class="container">
+        <div class="upcoming_text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            nesciunt corporis distinctio necessitatibus fugit quibusdam placeat
+            eaque rerum, eos accusantium est! Sunt minima dolor, maiores fugit
+            atque dolorum placeat perspiciatis?
+          </p>
+
+          <div class="countdown_container">
+            <p id="day" class="big-text">0</p>
+            <span></span>
+            <p id="hour" class="big-text">0</p>
+            <span></span>
+            <p id="minute" class="big-text">0</p>
+            <span></span>
+            <p id="second" class="big-text">0</p>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========upcoming part =================== -->
+    <!-- ========latest product-====================== -->
+    <section id="latest_part">
+      <div class="container">
+        <div class="latest">
+          <a href="#">Latest Product</a>
+        </div>
+        <div class="latest_slider">
+          <div class="latest_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="latest_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="latest_img">
+            <img src="images//house.jpg" alt="" />
+          </div>
+          <div class="latest_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="latest_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="latest_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="latest_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+          <div class="latest_img">
+            <img src="images/house.jpg" alt="" />
+          </div>
+        </div>
+        <div class="latest_load">
+          <a href="#">Load More</a>
+        </div>
+      </div>
+    </section>
+    <!-- ==============latest product-========================== -->
+    <!-- =============brand part -========================================= -->
+    <section id="brand_part">
+      <div class="container">
+        <div class="brand">
+          <a href="#">Brands</a>
+        </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+          <div class="col-lg-2">
+            <a href="#">
+              <div class="image_brand">
+                <img src="images/house.jpg" alt="" /></div
+            ></a>
+          </div>
+        </div>
+
+        <div class="brand_load">
+          <a href="#">Load More</a>
+        </div>
+      </div>
+    </section>
+    <!-- ===================brand part-==================================== -->
+    <!-- ==========service part -======================================== -->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3>CONTACT INFO</h3>
+            <div class="ser-1">
+              <h4>ADDRESS</h4>
+              <p>Mohammadpur,Dhaka-1207,Bangladesh</p>
+            </div>
+            <div class="ser-1">
+              <h4>EMAIL</h4>
+              <p><a href="#">hamza.mart@gmail.com</a></p>
+            </div>
+            <div class="ser-1">
+              <h4>PHONE</h4>
+              <p>+880 1827564839</p>
+            </div>
+            <div class="ser-1">
+              <h4>WORKING DAYS/HOURS</h4>
+              <p>Mon - Sun / 9:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h3>CUSTOMER SERVICE</h3>
+            <div class="ser-2">
+              <a href="#">Order Tracking </a>
+              <a href="#">Shipping & Delivery </a>
+              <a href="#">Orders History </a>
+              <a href="#">Advanced Search </a>
+              <a href="#">Careers</a>
+              <a href="#">My Account </a>
+              <a href="#">Corporate Sales </a>
+              <a href="#">About Us </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h3>POPULAR TAGS</h3>
+            <div class="ser-3">
+              <div class="ser-inner">
+                <a href="#">Bag</a>
+                <a href="#">Black</a>
+                <a href="#">Cloths</a>
+              </div>
+              <div class="ser-inner">
+                <a href="#">Fashion</a>
+                <a href="#">Sweater</a>
+                <a href="#">Shoes</a>
+              </div>
+              <div class="ser-inner">
+                <a href="#">Bag</a>
+                <a href="#">Black</a>
+                <a href="#">Cloths</a>
+              </div>
+              <div class="ser-inner">
+                <a href="#">Fashion</a>
+                <a href="#">Sweater</a>
+                <a href="#">Shoes</a>
+              </div>
+              <div class="ser-inner">
+                <a href="#">Bag</a>
+                <a href="#">Black</a>
+                <a href="#">Cloths</a>
+              </div>
+              <div class="ser-inner">
+                <a href="#">Fashion</a>
+                <a href="#">Sweater</a>
+                <a href="#">Shoes</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h3>NEWSLETTER</h3>
+            <div class="ser-4">
+              <form>
+                <input type="text" placeholder="email address.." />
+              </form>
+              <h3>PAYMENT METHODS</h3>
+              <div class="photos">
+                <a href="#">
+                  <img src="images/PngItem_479479 1.png" alt=""
+                /></a>
+                <img src="images/PngItem_479479 2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================service part -===================================== -->
+    <!-- ================footer part start-=================================== -->
+    <section id="footer_part">
+      <div class="container">
+        <div class="footer">
+          <div class="nav_footer">
+            <img src="images/assetbangla For FB PNG.png" alt="" />
+          </div>
+          <div class="text_footer">
+            <p>Hamza mart E-commerce. © 2022. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==================footer part end-================================================ -->
+    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

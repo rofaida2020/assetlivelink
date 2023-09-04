@@ -1,0 +1,116 @@
+#form_part {
+  padding: 30px;
+}
+.form h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  padding-top: 70px;
+  color: olivedrab;
+  text-align: center;
+}
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 427px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid olivedrab;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: olivedrab;
+}
+form .gender-details {
+  width: 427px;
+}
+form .gender-details .gender-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+form .category label .dot {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three {
+  background: #9b59b6;
+  border-color: #d9d9d9;
+}
+form input[type="radio"] {
+  display: none;
+}
+form .button {
+  margin: 20px 0;
+}
+form .button input {
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: olivedrab;
+}
+form .inner-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+form .inner-button .inner_btn {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+form .inner-button .inner_btn p {
+  margin: 0;
+}
+#remember {
+  accent-color: olivedrab;
+}
+.checkmark {
+  color: #fff;
+}
