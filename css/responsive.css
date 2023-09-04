@@ -107,6 +107,14 @@
     align-items: center;
     justify-content: center;
   }
+  #brand_part .container .brand{
+    display: flex;
+    justify-content: center;
+  }
+  #brand_part .container .row .col-lg-2{
+    display: flex;
+    justify-content: center;
+  }
   #service .container .row h3 {
     margin-top: 30px;
   }
@@ -253,7 +261,9 @@
   }
   #brand_part .row .col-lg-2 {
     width: 190px;
+    justify-content: center;
   }
+  
   #form_part .container {
     width: auto;
   }
